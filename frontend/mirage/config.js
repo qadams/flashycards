@@ -1,4 +1,9 @@
 export default function() {
+this.get('/flashycards');
+this.get('/flashycards/:id');
+this.post('/flashycards');
+this.del('/flashycards/:id');
+this.patch('/flashycards/:id');
 
   // These comments are here to help you get started. Feel free to delete them.
 
