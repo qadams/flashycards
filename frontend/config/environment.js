@@ -2,6 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
+    host: 'https://somehost.com',
     modulePrefix: 'frontend',
     environment,
     rootURL: '/',
@@ -29,6 +30,7 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.host = 'http://localhost:8000';
   }
 
   if (environment === 'test') {

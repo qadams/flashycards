@@ -1,0 +1,17 @@
+<form {{action "save" on="submit"}}>
+  <div>
+    <label>
+      Term
+      {{input type="text" value=model.term}}
+    </label>
+  </div>
+  <div>
+    <label>
+      Definition
+      {{input type="text" value=model.definition}}
+    </label>
+  </div>
+  <div>
+    <input type="submit" value="Save">
+  </div>
+</form>
