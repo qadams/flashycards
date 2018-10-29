@@ -7,17 +7,6 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('flashycards', function() {
-    this.route('new');
-
-    this.route('edit', {
-      path: ':flashycard_id/edit'
-    });
-
-    this.route('show', {
-      path: ':flashycard_id'
-    });
-  });
 });
 
 export default Router;
